@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+}
+
+.main-context{
+   
+    height: 100%;
+    width: 100%;
+    padding:2%;
+   
+    background-color: rgba(243, 251, 254, 255);
+}
+.input-section{
+
+    height: 100%;
+    width: 100%;
+
+}
+.image-col{
+    height: 450px;
+    background: url('../assest/4990224.jpg');
+    background-size: cover;
+    width: 400px;
+    margin-right: 100px;
+}
+.text-section{
+    margin: 0px;
+}
+.inputs-col{
+justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+width: 800px;
+gap: 5px;
+
+}
+.main-row{
+    width: 1850px
+}
+.hart-Icon:hover{
+color: red;
+cursor: pointer;
+width: 40px;
+height: 40px;
+}
